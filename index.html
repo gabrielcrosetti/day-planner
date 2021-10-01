@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="develop/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -31,42 +31,47 @@
     <div class="container">
       <!-- Timeblocks go here -->
       <!-- 9am -->
-      <div> 
-        <input type="text">
+      <div class="row time-block"> 
+        <div class="col-2 hour "> 9:00am </div>
+        <textarea class="col-8 description" id="9" ></textarea>
+        <button class ="saveBtn col-2">Save</button>
       </div>
       <!-- 10am -->
-      <div>
-        <input type="text">
+      <div class="row time-block"> 
+        <div class="col-2 hour "> 10:00am </div>
+        <textarea  class="col-8 description" id="10" ></textarea>
+        <buttonclass class="saveBtn col-2"> Save</button>
       </div>
       <!-- 11am -->
       <div>
-        <input type="text">
+        <textarea></textarea>
+        <button class="saveBtn"> </button>
 
       </div>
       <!-- 12pm -->
       <div>
-        <input type="text">
-
+        <textarea  id="" ></textarea>
+        <button class="saveBtn"> </button>
       </div>
       <!-- 1pm -->
       <div>
-        <input type="text">
-
+        <textarea  id="" ></textarea>
+        <button class="saveBtn"> </button>
       </div>
       <!-- 2pm -->
       <div>
-        <input type="text">
-
+        <textarea  id="" ></textarea>
+        <button class="saveBtn"> </button>
       </div>
       <!-- 3pm -->
       <div>
-        <input type="text">
-
+        <textarea  id="" ></textarea>
+        <button class="saveBtn"> </button>
       </div>
       <!-- 4pm -->
       <div>
-        <input type="text">
-
+        <textarea  id="" ></textarea>
+        <button class="saveBtn"> </button>
       </div>
 
      </div>
@@ -75,5 +80,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="plannerscript.js"></script>
   </body>
 </html>
