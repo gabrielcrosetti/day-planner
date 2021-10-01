@@ -13,7 +13,7 @@ Created a work day planner to keep track of daily events and activities with Jav
 
 ## Deployed Link
 
-
+https://gabrielcrosetti.github.io/day-planner/
 
 ## Site Picture
 
