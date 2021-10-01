@@ -4,68 +4,58 @@ var timeBlocksEl = $(".container")
 
 $("#currentDay").text(moment().format('dddd MMMM Do YYYY, h:mm a'));
 
-// Functions
-// function displayTimeBlocks
-// function displayCurrentDay
-
-// function retrieveEvents
-
-// var events = JSON.parse(localStorage.getItem("events"));
-
-
-
-// var currentTime = moment ()
-
-// // Hour variables 
-
-// var hour1 = 
-
-
-// var hour2 =
-$(".saveBtn").on("click",function(){
-    console.log ($(this).siblings("textarea"))
-    var value= $(this).siblings("textarea").val()
-    console.log (value)
+$(".saveBtn").on("click", function () {
+    console.log($(this).siblings("textarea"))
+    var value = $(this).siblings("textarea").val()
+    console.log(value)
     var timeEvent = $(this).siblings("textarea").attr("id")
     console.log(timeEvent)
-    localStorage.setItem(timeEvent,value)
+    localStorage.setItem(timeEvent, value)
 })
 
-    $("#9").val(localStorage.getItem("9"))
+// To display data from local storage in time blocks after refresh 
 
-    $("#10").val(localStorage.getItem("10"))
+$("#9").val(localStorage.getItem("9"))
 
-    $("#11").val(localStorage.getItem("11"))
+$("#10").val(localStorage.getItem("10"))
 
-    $("#12").val(localStorage.getItem("12"))
+$("#11").val(localStorage.getItem("11"))
 
-    $("#1").val(localStorage.getItem("1"))
+$("#12").val(localStorage.getItem("12"))
 
-    $("#2").val(localStorage.getItem("2"))
+$("#1").val(localStorage.getItem("1"))
 
-    $("#3").val(localStorage.getItem("3"))
+$("#2").val(localStorage.getItem("2"))
 
-    $("#4").val(localStorage.getItem("4"))
+$("#3").val(localStorage.getItem("3"))
 
-    $("#5").val(localStorage.getItem("5"))
+$("#4").val(localStorage.getItem("4"))
 
-    
-
-    //  moment().hour()
-// var hour3 =
+$("#5").val(localStorage.getItem("5"))
 
 
-// var hour4 =
+
+// Function to change time block colors according to time of day
+
+function changeColor() {
+    currentTime = moment().hours()
+    $(".time-block").each(function () {
+        
+        var timeEvent = $(this).attr("id")
+
+        if (currentTime == timeEvent) {
+            $(this).addClass("present")
+        } else if (currentTime < timeEvent) {
+            $(this).addClass("future")
+        } else {
+            $(this).addClass("past")
+        }
+
+    })
+}
+
+changeColor()
 
 
-// var hour5 =
 
-
-// var hour6 =
-
-
-// var hour7 =
-
-
-// var hour8 =
 
