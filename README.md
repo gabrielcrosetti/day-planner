@@ -17,10 +17,12 @@ https://gabrielcrosetti.github.io/day-planner/
 
 ## Site Picture
 
+<img width="1440" alt="Screen Shot 2021-10-01 at 2 23 03 AM" src="https://user-images.githubusercontent.com/89226867/135576932-24801d5d-7e08-43ad-b5be-e6383043fa16.png">
 
 
 ## Code Snippet
 
+<img width="530" alt="Screen Shot 2021-10-01 at 2 24 44 AM" src="https://user-images.githubusercontent.com/89226867/135576943-fc70dfb8-f750-462e-bbf2-8151090affc8.png">
 
 
 ## Summary 
