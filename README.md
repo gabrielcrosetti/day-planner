@@ -1,26 +1,6 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Psuedocode
-
-// NOUNS 
-
-// currentDayTime => variable for the current day using moment function ??? - formatting it ???
-// calEl = jQuery selector for <p id="currentDay" class="lead"></p> - why to point to and elment on the page
-	//var calEl = $('#currentDay');
-// timeBlockEl = jquery Selector for the div on the page where the clandar elments will go
-	// <div class="container">
-	//var timeBlockEl = $('.container');
-
-// VERBS (functions)
-// displayCurrentDay
-	//use moment and assign the value of the day to a vriable
-	//append that value to the page - calEl
-// generateTimeBlocks
-	//call on function that will retrieve infomration about the TODO iteams as they are stored in tlocal storage
-	//it will generate a listing of cards for 9am -5pm
-		//each timeblock is color coded to indicate whether it is in the past, present, or future
-// retriveTodos
-	//var  todos = JSON.parse(localStorage.getItem("todos"));
+## 
 
 
 
